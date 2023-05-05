@@ -9,5 +9,5 @@ export async function GET(
     params: { code: string };
   }
 ) {
-  return redirect(`/${params.code}/1`);
+  redirect(`/${params.code}/1`);
 }
